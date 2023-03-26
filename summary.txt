@@ -1,0 +1,8 @@
+(1). Create a tkinter window.
+(2). Add play area and a label with text “Tic Tac Toe”. 
+(3). Make the GUI functional.
+(4). Implement logic to detect win.
+(5). Detect draw.
+(6). Status label.
+(7). Display whose turn it is.
+(8). Create Play again button.
