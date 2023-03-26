@@ -1,0 +1,120 @@
+DELL@DhruvSehgal1209 MINGW64 ~ (master)
+$ mkdir sem
+
+DELL@DhruvSehgal1209 MINGW64 ~ (master)
+$ cd sem
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git init
+Initialized empty Git repository in C:/Users/DELL/sem/.git/
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ touch a.txt
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git add -A
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   a.txt
+
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git commit -m 'hello'
+[master (root-commit) ec95b53] hello
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a.txt
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git remote add origin https://github.com/DhruvSehgal1209/dhruv_demo_repository.git
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ git checkout -b 'new_branch'
+Switched to a new branch 'new_branch'
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (new_branch)
+$ git push -u origin new_branch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 105.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'new_branch' on GitHub by visiting:
+remote:      https://github.com/DhruvSehgal1209/dhruv_demo_repository/pull/new/new_branch
+remote:
+To https://github.com/DhruvSehgal1209/dhruv_demo_repository.git
+ * [new branch]      new_branch -> new_branch
+branch 'new_branch' set up to track 'origin/new_branch'.
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (new_branch)
+$ ^C
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (new_branch)
+$ git checkout master
+Switched to branch 'master'
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ mkdir abc
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ cd ab
+bash: cd: ab: No such file or directory
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem (master)
+$ cd abc
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ git iniit
+git: 'iniit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ git init
+Initialized empty Git repository in C:/Users/DELL/sem/abc/.git/
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ cat > a.txt
+hello everyone
+how are you
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ cat a.txt
+hello everyone
+how are you
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ cat > b.txt
+hi
+new file
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ touch . gitignore
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ cat >> .gitignore
+b.txt
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        a.txt
+        gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DhruvSehgal1209 MINGW64 ~/sem/abc (master)
+$
