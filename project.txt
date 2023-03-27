@@ -1,4 +1,6 @@
 This is a project for source code manangement task-2.
 In this project we have made a tic tac toe game having frontend and backend.
 You can play this game multiple times without running the code again and again.
-Made few changes in the file. 
+Made few changes in the file.
+this project is based on tkinter library file used in python
+ 
